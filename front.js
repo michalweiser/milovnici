@@ -1,6 +1,11 @@
 PLACE_ZOOM_LEVEL = 12;
 INITIAL_ZOOM_LEVEL = 8;
 
+var LOCAL_TOKEN = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+var HEROKU_TOKEN = 'pk.eyJ1IjoibWlsb3ZuaWNpLXNrIiwiYSI6ImNqdTVsenB4aDE2NGwzeW5yaXdsNTRmcTgifQ.O9_dp1XXSmdHuUOTMLMUEQ';
+
+var MAPBOX_TOKEN = (location.origin === 'file://') ? LOCAL_TOKEN : HEROKU_TOKEN;
+
 var MAP_BOUNDS = [
         [50.826427, 14.690681],//left top
         [46.615731, 24.884142]//bottomright
@@ -25,7 +30,7 @@ var map = L.map('map', {
 
 map.fitBounds(L.latLngBounds(zoom[0], zoom[1]));
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + MAPBOX_TOKEN, {
         maxZoom: 18,
         // attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap<\/a> contributors, ' +
         //         '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA<\/a>, ' +
