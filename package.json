@@ -1,0 +1,22 @@
+{
+  "name": "milovnici.sk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalweiser/milovnici.git"
+  },
+  "author": "Michal Weiser <michal.weiser@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalweiser/milovnici/issues"
+  },
+  "homepage": "https://github.com/michalweiser/milovnici#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}
