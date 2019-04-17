@@ -79,7 +79,7 @@ export default {
   },
   data() {
     return {
-      url: 'http://c.tiles.wmflabs.org/hillshading/{z}/{x}/{y}.png',
+      url: 'https://api.mapbox.com/styles/v1/milovnici-sk/cju5pct5b0yj31fo3qmkh6f6x/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWlsb3ZuaWNpLXNrIiwiYSI6ImNqdTVseGdvODBsb200ZW81Ym56anRwYzcifQ.YzSDUOwEaw9pCAZyXcbmvw',
       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
       ...MAP_CONFIG,
       loaded: false
