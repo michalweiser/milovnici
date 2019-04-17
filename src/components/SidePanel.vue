@@ -4,6 +4,7 @@
         div.back(@click="back") < {{ backbutton }}
     main.main
       header.title {{ title }}
+      main.content(v-html="compiledMarkdown")
 </template>
 
 <script>
@@ -40,11 +41,17 @@ export default {
     backbutton() {
       return this.$store.state.sidepanel.backbutton
     },
+    content() {
+      return this.$store.state.sidepanel.content
+    },
     currentPlace() {
       return this.$store.state.current.place
     },
     currentRegion() {
       return this.$store.state.current.region
+    },
+    compiledMarkdown: function () {
+      return window.marked(this.content, { sanitize: true })
     }
   }
 }
@@ -55,6 +62,7 @@ export default {
     width: 40%;
     height: 100%;
     background: white;
+    overflow-x: auto;
   }
 
   .header {

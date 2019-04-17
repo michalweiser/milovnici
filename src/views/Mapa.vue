@@ -67,14 +67,16 @@ export default {
       loadContryMap: 'LOAD_COUNTRY_MAP_LAYER'
     }),
     fitCountry() {
-      this.map.mapObject.fitBounds(this.countryBounds);
+      this.flyTo(this.countryBounds);
     },
     boundsUpdated() {
       this.map.mapObject.invalidateSize()
     },
     regionSelected(data) {
-      this.boundaries = data.bounds
-      this.$refs.map.fitBounds(data.bounds)
+      this.flyTo(data.bounds)
+    },
+    flyTo(bounds) {
+      this.map.mapObject.flyToBounds(bounds)
     }
   },
   data() {

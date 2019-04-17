@@ -14,11 +14,15 @@ export default {
   },
   created: async function() {
     await this.$store.dispatch('LOAD_REGION_BORDER', { id: this.id })
+    if (this.content) {
+      await this.$store.dispatch('LOAD_REGION_CONTENT', { id: this.id })
+    }
   },
   methods: {
     select() {
+      const content = (this.content && this.content.data) ? this.content.data : ""
       this.$store.dispatch('SET_CURRENT_REGION', { id: this.id })
-      this.$store.dispatch('SET_PANEL', { title: this.id, content: "", backbutton: "mapa"})
+      this.$store.dispatch('SET_PANEL', { title: this.name, content, backbutton: "mapa"})
 
       this.$emit('select', {
         id: this.id,
@@ -35,6 +39,12 @@ export default {
     },
     border() {
       return this.$store.getters.region(this.id).border
+    },
+    content() {
+      return this.$store.getters.region(this.id).content
+    },
+    name() {
+      return this.$store.getters.region(this.id).name
     }
   },
   components: {

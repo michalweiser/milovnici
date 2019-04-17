@@ -91,6 +91,10 @@ export default new Vuex.Store({
           "fetchURL": "data/geojson/zemplin-miesta.geojson",
           "geoJSON": null,
           "layer": null
+      },
+      "content": {
+        "fetchURL": "data/md/regions/zemplin.md",
+        "data": ""
       }
   }]
   },
@@ -110,6 +114,9 @@ export default new Vuex.Store({
     SET_REGION_PLACES_DATA( store, { id, data } ) {
       store.regions.find(region => region.id === id).places = data
     },
+    SET_REGION_CONTENT ( store, { id, data } ) {
+      store.regions.find(region => region.id === id).content.data = data
+    },
     SET_COUNTY_BORDER_DATA( store, data ) {
       store.country.border = data
     },
@@ -126,7 +133,7 @@ export default new Vuex.Store({
       store.sidepanel.backbutton = text
     },
     SET_PANEL_CONTENT(store, { content }) {
-      store.sidepanel.title = content
+      store.sidepanel.content = content
     }
   },
   actions: {
@@ -144,6 +151,14 @@ export default new Vuex.Store({
       const border = await loadGeoJsonLayer(region.border, region_postproc)
 
       commit('SET_REGION_BORDER_DATA', { id, data: border })
+    },
+    async LOAD_REGION_CONTENT ({ getters, commit }, { id }) {
+      const region = getters.region(id)
+      const content = await fetch(region.content.fetchURL).then(function(res) {
+        return res.text()
+      })
+
+      commit('SET_REGION_CONTENT', { id, data: content })
     },
     async LOAD_REGION_MAP_LAYERS ({ state, commit }, { id }) {
       const region = state.regions.find(region => region.id === id)
