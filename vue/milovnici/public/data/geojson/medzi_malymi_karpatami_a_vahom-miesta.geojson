@@ -1,0 +1,1575 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.637706,
+                    48.262043,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hostie",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.619001,
+                    48.253601,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Abrahám",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.814733,
+                    48.25319,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Šoporňa",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.8603947,
+                    48.2555898,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hájske",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.868762,
+                    48.311616,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Báb",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.951239,
+                    48.366762,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Alekšince",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.934416,
+                    48.398228,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lukáčovce",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.903278,
+                    48.444734,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Dolné Trhovište",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.914607,
+                    48.467275,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Dolné Otrokovce",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.880556,
+                    48.490622,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Horné Otrokovce?",
+                "styleUrl": "#icon-1594-FFD600-nodesc",
+                "styleHash": "15a0af5d",
+                "styleMapHash": {
+                    "normal": "#icon-1594-FFD600-nodesc-normal",
+                    "highlight": "#icon-1594-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.903558,
+                    48.49267,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tekolďany?",
+                "styleUrl": "#icon-1594-FFD600-nodesc",
+                "styleHash": "15a0af5d",
+                "styleMapHash": {
+                    "normal": "#icon-1594-FFD600-nodesc-normal",
+                    "highlight": "#icon-1594-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.829526,
+                    48.508281,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Jalšové",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.842916,
+                    48.537159,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sokolovce",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.837766,
+                    48.56125,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ratnovce",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.854246,
+                    48.584421,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Banka",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.864545,
+                    48.598727,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Moravany n/V",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.888235,
+                    48.617796,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hubina",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.899908,
+                    48.642529,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Modrová",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.941964,
+                    48.6514,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Stará Lehota",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.981102,
+                    48.659338,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nová Lehota",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.886689,
+                    48.697875,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hrádok",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.891495,
+                    48.718492,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hôrka n/V",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.889092,
+                    48.732081,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nová ves n/V",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.884629,
+                    48.742723,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kočovce",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.830727,
+                    48.756758,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nové Mesto n/V",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.785408,
+                    48.713282,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Čachtice",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.781288,
+                    48.68881,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Častkovce",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.771332,
+                    48.671242,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Podolie",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.716744,
+                    48.655823,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Šípkové",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.72155,
+                    48.622246,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Vrbové",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.680008,
+                    48.602725,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Šterusy",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.537873,
+                    48.597504,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Dobrá Voda",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.462578,
+                    48.526724,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Trstín",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.424126,
+                    48.505574,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Smolenice",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.392541,
+                    48.484643,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lošonec",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.435799,
+                    48.466435,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Horné Orešany...",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.154316,
+                    48.21203,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "...Rača",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.188133,
+                    48.1942956,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Vajnory",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.251023,
+                    48.197781,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Veľký Grob",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.296686,
+                    48.205333,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bernolákovo",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.419252,
+                    48.269588,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Blatné",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.495127,
+                    48.253132,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Veľký Grob",
+                "styleUrl": "#icon-1739-FFD600-nodesc",
+                "styleHash": "23c372f0",
+                "styleMapHash": {
+                    "normal": "#icon-1739-FFD600-nodesc-normal",
+                    "highlight": "#icon-1739-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.568355,
+                    48.233252,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pusté Úľany",
+                "styleUrl": "#icon-1594-FFD600",
+                "styleHash": "-13827424",
+                "styleMapHash": {
+                    "normal": "#icon-1594-FFD600-normal",
+                    "highlight": "#icon-1594-FFD600-highlight"
+                },
+                "description": "Agi ich nezaraďuje(?) zatiaľ neviem čo s nimi."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.780116,
+                    48.251704,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Váhovce?",
+                "styleUrl": "#icon-1594-FFD600-nodesc",
+                "styleHash": "15a0af5d",
+                "styleMapHash": {
+                    "normal": "#icon-1594-FFD600-nodesc-normal",
+                    "highlight": "#icon-1594-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.728617,
+                    48.232269,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gáň?",
+                "styleUrl": "#icon-1594-FFD600-nodesc",
+                "styleHash": "15a0af5d",
+                "styleMapHash": {
+                    "normal": "#icon-1594-FFD600-nodesc-normal",
+                    "highlight": "#icon-1594-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.690508,
+                    48.243931,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Veľká Mača",
+                "styleUrl": "#icon-1594-FFD600-nodesc",
+                "styleHash": "15a0af5d",
+                "styleMapHash": {
+                    "normal": "#icon-1594-FFD600-nodesc-normal",
+                    "highlight": "#icon-1594-FFD600-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            17.1931112,
+                            48.1905192,
+                            0
+                        ],
+                        [
+                            17.200779,
+                            48.1837395,
+                            0
+                        ],
+                        [
+                            17.2183458,
+                            48.1778281,
+                            0
+                        ],
+                        [
+                            17.2293937,
+                            48.1745479,
+                            0
+                        ],
+                        [
+                            17.2456919,
+                            48.1763251,
+                            0
+                        ],
+                        [
+                            17.2586505,
+                            48.1757238,
+                            0
+                        ],
+                        [
+                            17.2669387,
+                            48.1776565,
+                            0
+                        ],
+                        [
+                            17.3016642,
+                            48.1791273,
+                            0
+                        ],
+                        [
+                            17.310281,
+                            48.1754017,
+                            0
+                        ],
+                        [
+                            17.3235176,
+                            48.1719323,
+                            0
+                        ],
+                        [
+                            17.3380369,
+                            48.1754589,
+                            0
+                        ],
+                        [
+                            17.3379385,
+                            48.1989502,
+                            0
+                        ],
+                        [
+                            17.3502047,
+                            48.2174065,
+                            0
+                        ],
+                        [
+                            17.4008469,
+                            48.2421305,
+                            0
+                        ],
+                        [
+                            17.4123855,
+                            48.2474163,
+                            0
+                        ],
+                        [
+                            17.4255172,
+                            48.2477668,
+                            0
+                        ],
+                        [
+                            17.4397209,
+                            48.2574268,
+                            0
+                        ],
+                        [
+                            17.495127,
+                            48.253132,
+                            0
+                        ],
+                        [
+                            17.619001,
+                            48.253601,
+                            0
+                        ],
+                        [
+                            17.637706,
+                            48.262043,
+                            0
+                        ],
+                        [
+                            17.814733,
+                            48.25319,
+                            0
+                        ],
+                        [
+                            17.8487214,
+                            48.2466194,
+                            0
+                        ],
+                        [
+                            17.8657156,
+                            48.2448177,
+                            0
+                        ],
+                        [
+                            17.8770458,
+                            48.2493032,
+                            0
+                        ],
+                        [
+                            17.8790863,
+                            48.260807,
+                            0
+                        ],
+                        [
+                            17.8840399,
+                            48.2870639,
+                            0
+                        ],
+                        [
+                            17.9021637,
+                            48.3023731,
+                            0
+                        ],
+                        [
+                            17.9496885,
+                            48.3322878,
+                            0
+                        ],
+                        [
+                            17.9690029,
+                            48.3385717,
+                            0
+                        ],
+                        [
+                            17.9823097,
+                            48.3431492,
+                            0
+                        ],
+                        [
+                            17.9803485,
+                            48.365103,
+                            0
+                        ],
+                        [
+                            17.9668311,
+                            48.3820098,
+                            0
+                        ],
+                        [
+                            17.9584486,
+                            48.4002795,
+                            0
+                        ],
+                        [
+                            17.919704,
+                            48.4234184,
+                            0
+                        ],
+                        [
+                            17.9228188,
+                            48.4307739,
+                            0
+                        ],
+                        [
+                            17.928497,
+                            48.4334266,
+                            0
+                        ],
+                        [
+                            17.9316022,
+                            48.4417733,
+                            0
+                        ],
+                        [
+                            17.9437863,
+                            48.4414872,
+                            0
+                        ],
+                        [
+                            17.9423267,
+                            48.4477204,
+                            0
+                        ],
+                        [
+                            17.9493219,
+                            48.4524313,
+                            0
+                        ],
+                        [
+                            17.9538503,
+                            48.4593406,
+                            0
+                        ],
+                        [
+                            17.9616081,
+                            48.4602908,
+                            0
+                        ],
+                        [
+                            17.9634273,
+                            48.4646362,
+                            0
+                        ],
+                        [
+                            17.9566631,
+                            48.4662497,
+                            0
+                        ],
+                        [
+                            17.914607,
+                            48.467275,
+                            0
+                        ],
+                        [
+                            17.829526,
+                            48.508281,
+                            0
+                        ],
+                        [
+                            17.8584445,
+                            48.5265863,
+                            0
+                        ],
+                        [
+                            17.8612786,
+                            48.5344298,
+                            0
+                        ],
+                        [
+                            17.8607688,
+                            48.5405688,
+                            0
+                        ],
+                        [
+                            17.8664306,
+                            48.551478,
+                            0
+                        ],
+                        [
+                            17.868665,
+                            48.5598867,
+                            0
+                        ],
+                        [
+                            17.8744995,
+                            48.5670459,
+                            0
+                        ],
+                        [
+                            17.8844584,
+                            48.5710195,
+                            0
+                        ],
+                        [
+                            17.8889198,
+                            48.5811293,
+                            0
+                        ],
+                        [
+                            17.8947574,
+                            48.5914609,
+                            0
+                        ],
+                        [
+                            17.9103341,
+                            48.5896127,
+                            0
+                        ],
+                        [
+                            17.9217819,
+                            48.5827623,
+                            0
+                        ],
+                        [
+                            17.9522262,
+                            48.5831322,
+                            0
+                        ],
+                        [
+                            17.9478909,
+                            48.5915942,
+                            0
+                        ],
+                        [
+                            17.972865,
+                            48.5921565,
+                            0
+                        ],
+                        [
+                            17.9788722,
+                            48.5964569,
+                            0
+                        ],
+                        [
+                            17.9823073,
+                            48.6005524,
+                            0
+                        ],
+                        [
+                            17.9774989,
+                            48.6137105,
+                            0
+                        ],
+                        [
+                            17.9907537,
+                            48.6197487,
+                            0
+                        ],
+                        [
+                            18.0005564,
+                            48.6237236,
+                            0
+                        ],
+                        [
+                            18.0139799,
+                            48.6239508,
+                            0
+                        ],
+                        [
+                            18.017495,
+                            48.636655,
+                            0
+                        ],
+                        [
+                            18.0161173,
+                            48.6441777,
+                            0
+                        ],
+                        [
+                            18.0133688,
+                            48.6550904,
+                            0
+                        ],
+                        [
+                            18.0023828,
+                            48.6624015,
+                            0
+                        ],
+                        [
+                            17.9968948,
+                            48.6720359,
+                            0
+                        ],
+                        [
+                            17.9958634,
+                            48.6860871,
+                            0
+                        ],
+                        [
+                            17.9914024,
+                            48.6965154,
+                            0
+                        ],
+                        [
+                            17.9874477,
+                            48.7015127,
+                            0
+                        ],
+                        [
+                            17.9934619,
+                            48.7096573,
+                            0
+                        ],
+                        [
+                            17.9670263,
+                            48.7164536,
+                            0
+                        ],
+                        [
+                            17.9011085,
+                            48.7583423,
+                            0
+                        ],
+                        [
+                            17.8861043,
+                            48.7616244,
+                            0
+                        ],
+                        [
+                            17.8683499,
+                            48.7655872,
+                            0
+                        ],
+                        [
+                            17.868412,
+                            48.7795539,
+                            0
+                        ],
+                        [
+                            17.86423,
+                            48.785045,
+                            0
+                        ],
+                        [
+                            17.8645514,
+                            48.7910473,
+                            0
+                        ],
+                        [
+                            17.853552,
+                            48.7955669,
+                            0
+                        ],
+                        [
+                            17.8401974,
+                            48.7922833,
+                            0
+                        ],
+                        [
+                            17.8223446,
+                            48.7886643,
+                            0
+                        ],
+                        [
+                            17.8078886,
+                            48.7831265,
+                            0
+                        ],
+                        [
+                            17.7997304,
+                            48.7769464,
+                            0
+                        ],
+                        [
+                            17.7900723,
+                            48.7737332,
+                            0
+                        ],
+                        [
+                            17.7830047,
+                            48.767847,
+                            0
+                        ],
+                        [
+                            17.7797726,
+                            48.761061,
+                            0
+                        ],
+                        [
+                            17.7800511,
+                            48.7535506,
+                            0
+                        ],
+                        [
+                            17.7844465,
+                            48.7506164,
+                            0
+                        ],
+                        [
+                            17.7897327,
+                            48.7464337,
+                            0
+                        ],
+                        [
+                            17.7782982,
+                            48.7366455,
+                            0
+                        ],
+                        [
+                            17.7526567,
+                            48.7189026,
+                            0
+                        ],
+                        [
+                            17.7541427,
+                            48.7125986,
+                            0
+                        ],
+                        [
+                            17.742357,
+                            48.7084821,
+                            0
+                        ],
+                        [
+                            17.7263564,
+                            48.6978749,
+                            0
+                        ],
+                        [
+                            17.7169511,
+                            48.6869547,
+                            0
+                        ],
+                        [
+                            17.7047208,
+                            48.6743096,
+                            0
+                        ],
+                        [
+                            17.7012862,
+                            48.6637632,
+                            0
+                        ],
+                        [
+                            17.7059648,
+                            48.6549866,
+                            0
+                        ],
+                        [
+                            17.7047277,
+                            48.6467505,
+                            0
+                        ],
+                        [
+                            17.7013299,
+                            48.6391084,
+                            0
+                        ],
+                        [
+                            17.6978608,
+                            48.6363144,
+                            0
+                        ],
+                        [
+                            17.6871524,
+                            48.6370624,
+                            0
+                        ],
+                        [
+                            17.6613318,
+                            48.6360001,
+                            0
+                        ],
+                        [
+                            17.6021155,
+                            48.6388553,
+                            0
+                        ],
+                        [
+                            17.5770637,
+                            48.6332103,
+                            0
+                        ],
+                        [
+                            17.5633391,
+                            48.6409741,
+                            0
+                        ],
+                        [
+                            17.5482479,
+                            48.6378889,
+                            0
+                        ],
+                        [
+                            17.5336233,
+                            48.6271633,
+                            0
+                        ],
+                        [
+                            17.451841,
+                            48.5637938,
+                            0
+                        ],
+                        [
+                            17.4261966,
+                            48.5336466,
+                            0
+                        ],
+                        [
+                            17.4086772,
+                            48.5226315,
+                            0
+                        ],
+                        [
+                            17.3777775,
+                            48.4928347,
+                            0
+                        ],
+                        [
+                            17.3513523,
+                            48.4496881,
+                            0
+                        ],
+                        [
+                            17.2362351,
+                            48.3475397,
+                            0
+                        ],
+                        [
+                            17.1361528,
+                            48.2608458,
+                            0
+                        ],
+                        [
+                            17.1364347,
+                            48.2328603,
+                            0
+                        ],
+                        [
+                            17.1409264,
+                            48.2097421,
+                            0
+                        ],
+                        [
+                            17.1390281,
+                            48.2015875,
+                            0
+                        ],
+                        [
+                            17.1487293,
+                            48.1936736,
+                            0
+                        ],
+                        [
+                            17.1797116,
+                            48.1894179,
+                            0
+                        ],
+                        [
+                            17.1931112,
+                            48.1905192,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "presné hranice regiónu",
+                "styleUrl": "#poly-FFD600-6000-77-nodesc",
+                "styleHash": "6658856a",
+                "styleMapHash": {
+                    "normal": "#poly-FFD600-6000-77-nodesc-normal",
+                    "highlight": "#poly-FFD600-6000-77-nodesc-highlight"
+                },
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 6,
+                "fill": "#ffd600",
+                "fill-opacity": 0.30196078431372547
+            }
+        }
+    ]
+}

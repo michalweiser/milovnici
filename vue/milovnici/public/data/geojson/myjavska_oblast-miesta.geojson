@@ -1,0 +1,285 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.409096,
+                    48.799619,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chvojnica...",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.735763,
+                    48.784622,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "...Lubina",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.770954,
+                    48.787223,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bzince p/J",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.751212,
+                    48.725928,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Višňové",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.728038,
+                    48.714036,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hrachovište",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.685567,
+                    48.703108,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Krajné",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.687455,
+                    48.651875,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Prašník",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.598019,
+                    48.67081,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Košariská",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.537574,
+                    48.665128,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brezová p/B",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.498114,
+                    48.699221,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bukovec",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.443182,
+                    48.729123,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Podbranč",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.404043,
+                    48.731614,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sobotište",
+                "styleUrl": "#icon-1739-01579B-nodesc",
+                "styleHash": "-6b9fe490",
+                "styleMapHash": {
+                    "normal": "#icon-1739-01579B-nodesc-normal",
+                    "highlight": "#icon-1739-01579B-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.5674635,
+                    48.7552968,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Myjava",
+                "styleUrl": "#icon-1739-0288D1-nodesc",
+                "styleHash": "-41743b30",
+                "styleMapHash": {
+                    "normal": "#icon-1739-0288D1-nodesc-normal",
+                    "highlight": "#icon-1739-0288D1-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.3610002,
+                    48.6798645,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Senica",
+                "styleUrl": "#icon-1739-0288D1-nodesc",
+                "styleHash": "-41743b30",
+                "styleMapHash": {
+                    "normal": "#icon-1739-0288D1-nodesc-normal",
+                    "highlight": "#icon-1739-0288D1-nodesc-highlight"
+                }
+            }
+        }
+    ]
+}
