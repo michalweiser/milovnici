@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import { debuggerStatement } from 'babel-types';
 export default {
   name: 'places',
   props: {
@@ -37,7 +36,7 @@ export default {
     },
     options() {
         return {
-            style: function style(feature) {
+            style: function style() {
                 return {
                     weight: 4,
                     opacity: 0.7,
