@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { MAP_CONFIG, COUNTRY_ZOOM_BOUNDS, ZOOM_SNAP, ZOOM_CONTROL, PLACE_ZOOM_LEVEL } from '@/const.js'
+import { MAP_CONFIG, COUNTRY_ZOOM_BOUNDS, PLACE_ZOOM_LEVEL } from '@/const.js'
 import { mapActions } from 'vuex'
 import Region from '@/components/Region'
 import SidePanel from '@/components/SidePanel'
@@ -28,6 +28,9 @@ export default {
     window.M = this.map.mapObject
   },
   computed: {
+    countryBounds() {
+      return window.L.latLngBounds(COUNTRY_ZOOM_BOUNDS[0], COUNTRY_ZOOM_BOUNDS[1])
+    },
     regionIsSelected() {
       return this.$store.state.current.region !== null
     },
@@ -63,33 +66,8 @@ export default {
     ...mapActions({
       loadContryMap: 'LOAD_COUNTRY_MAP_LAYER'
     }),
-    // addLayersToMap() {
-    //   const onRegionSelected = function(e, previous_region, next_region) {
-    //       if (previous_region) {
-    //           previous_region.places.layer.remove();
-    //       }
-
-    //       next_region.places.layer.addTo(map);
-    //   }
-
-    //   const selectCurrentRegion = function(e, next_region) {
-    //       const previous_region = data.current.region;
-
-    //       const fit = map.fitBounds(next_region.border.layer.getBounds());
-    //       fit.on('moveend', (e) => onRegionSelected(e, previous_region, next_region));
-
-    //       data.current.region = next_region;
-    //   }
-
-    //   this.country.extrenal_borders.layer.addTo(this.map);
-    //   this.country.border.layer.addTo(this.map);
-    //   this.regions.forEach(region => {
-    //       region.border.layer.addTo(this.map);
-    //       region.border.layer.on('click', (e) => selectCurrentRegion(e, region));
-    //   });
-    // },
     fitCountry() {
-      const fit = this.map.mapObject.fitBounds(window.L.latLngBounds(COUNTRY_ZOOM_BOUNDS[0], COUNTRY_ZOOM_BOUNDS[1]));
+      this.map.mapObject.fitBounds(this.countryBounds);
     },
     boundsUpdated() {
       this.map.mapObject.invalidateSize()

@@ -30,12 +30,12 @@ export default new Vuex.Store({
     },
     "country": {
         "border": {
-            "fetchURL": "data/geoJSON/slovakia_esri_epsg_4326.geojson",
+            "fetchURL": "data/geojson/slovakia_esri_epsg_4326.geojson",
             "geoJSON": null,
             "layer": null
         },
         "extrenal_borders": {
-            "fetchURL": "data/geoJSON/external_borders.geojson",
+            "fetchURL": "data/geojson/external_borders.geojson",
             "geoJSON": null,
             "layer": null
         }
@@ -44,12 +44,12 @@ export default new Vuex.Store({
         "id": "zahorie",
         "name": "Zahorie",
         "border": {
-            "fetchURL": "data/geoJSON/zahorie-region.geojson",
+            "fetchURL": "data/geojson/zahorie-region.geojson",
             "geoJSON": null,
             "layer": null
         },
         "places": {
-            "fetchURL": "data/geoJSON/zahorie-miesta.geojson",
+            "fetchURL": "data/geojson/zahorie-miesta.geojson",
             "geoJSON": null,
             "layer": null
         }
@@ -57,12 +57,12 @@ export default new Vuex.Store({
         "id": "myjavska_oblast",
         "name": "Myjavská oblast",
         "border": {
-            "fetchURL": "data/geoJSON/myjavska_oblast-region.geojson",
+            "fetchURL": "data/geojson/myjavska_oblast-region.geojson",
             "geoJSON": null,
             "layer": null
         },
         "places": {
-            "fetchURL": "data/geoJSON/myjavska_oblast-miesta.geojson",
+            "fetchURL": "data/geojson/myjavska_oblast-miesta.geojson",
             "geoJSON": null,
             "layer": null
         }
@@ -70,12 +70,12 @@ export default new Vuex.Store({
         "id": "medzi_malymi_karpatami_a_vahom",
         "name": "Medzi Malymi Karpatami a Vahom",
         "border": {
-            "fetchURL": "data/geoJSON/medzi_malymi_karpatami_a_vahom-region.geojson",
+            "fetchURL": "data/geojson/medzi_malymi_karpatami_a_vahom-region.geojson",
             "geoJSON": null,
             "layer": null
         },
         "places": {
-            "fetchURL": "data/geoJSON/medzi_malymi_karpatami_a_vahom-miesta.geojson",
+            "fetchURL": "data/geojson/medzi_malymi_karpatami_a_vahom-miesta.geojson",
             "geoJSON": null,
             "layer": null
         }
@@ -83,12 +83,12 @@ export default new Vuex.Store({
       "id": "zemplin",
       "name": "Zemplín",
       "border": {
-          "fetchURL": "data/geoJSON/zemplin-region.geojson",
+          "fetchURL": "data/geojson/zemplin-region.geojson",
           "geoJSON": null,
           "layer": null
       },
       "places": {
-          "fetchURL": "data/geoJSON/zemplin-miesta.geojson",
+          "fetchURL": "data/geojson/zemplin-miesta.geojson",
           "geoJSON": null,
           "layer": null
       }
