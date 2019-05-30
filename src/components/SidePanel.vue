@@ -3,7 +3,7 @@
     header.header
         div.back(@click="back") < {{ backbutton }}
     main.main
-      header.title {{ title }}
+      //- header.title {{ title }}
       main.content(v-html="compiledMarkdown")
 </template>
 
@@ -16,11 +16,13 @@ export default {
   methods: {
       back() {
         if (this.currentPlace) {
+          this.$router.replace('/region/' + this.currentRegion)
           this.$store.dispatch('CLEAR_CURRENT_PLACE')
           return
         }
 
         if (this.currentRegion) {
+          this.$router.replace('/')
           this.close()
         }
       },
@@ -59,7 +61,7 @@ export default {
 
 <style scoped lang="scss">
   .side-panel {
-    width: 40%;
+    width: 50%;
     height: 100%;
     background: white;
     overflow-x: auto;
@@ -78,5 +80,10 @@ export default {
       justify-content: center;
       align-items: center;
       cursor: pointer;
+  }
+
+  .content {
+    text-align: justify;
+    padding: 2% 10%;
   }
 </style>

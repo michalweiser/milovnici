@@ -12,15 +12,26 @@ export default {
     await this.$store.dispatch('LOAD_REGION_PLACES', { id: this.id })
   },
   methods: {
-    select(feature, layer) {
+    async getContent(contentUrl) {
+      const content = await fetch(contentUrl).then(res => res.text())
+      console.log(content)
+      return content
+    },
+    async select(feature, layer) {
+      let content = '';
+      
       const place = {
         feature,
         layer,
         latLng: layer.getLatLng()
       }
 
+      if (feature.properties.content) {
+        content = await this.getContent(feature.properties.content)
+      }
+      
       this.$store.dispatch('SET_CURRENT_PLACE', { place })
-      this.$store.dispatch('SET_PANEL', { title: feature.properties.name, content: "", backbutton: this.currentRegionName})
+      this.$store.dispatch('SET_PANEL', { title: feature.properties.name, content: content, backbutton: this.currentRegionName})
       this.$emit('select', place)
     }
   },

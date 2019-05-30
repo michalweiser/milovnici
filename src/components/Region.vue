@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    l-geo-json(:geojson="border.geoJSON" ref="region" @click="select")
+    l-geo-json(:geojson="border.geoJSON" :optionsStyle="style" ref="region" @click="select")
     places(v-if="selected" :id="id")
 </template>
 
@@ -13,6 +13,15 @@ export default {
     id: String
   },
   created: async function() {
+    //TODO: remove async lifecycle hooks!
+    // {
+    //   created: function(){
+    //     this.waitData = asyncCall();
+    //   },
+    //   mounted: function(){
+    //     this.waitData.then(function(data) { ... })
+    //   }
+    // }
     await this.$store.dispatch('LOAD_REGION_BORDER', { id: this.id })
     if (this.content) {
       await this.$store.dispatch('LOAD_REGION_CONTENT', { id: this.id })
@@ -23,6 +32,7 @@ export default {
       const content = (this.content && this.content.data) ? this.content.data : ""
       this.$store.dispatch('SET_CURRENT_REGION', { id: this.id })
       this.$store.dispatch('SET_PANEL', { title: this.name, content, backbutton: "mapa"})
+      this.$router.replace('/region/' + this.id)
 
       this.$emit('select', {
         id: this.id,
@@ -45,6 +55,13 @@ export default {
     },
     name() {
       return this.$store.getters.region(this.id).name
+    },
+    style() {
+      return {
+        weight: 0,
+        color: 'red',
+        cursor: 'pointer'
+      }
     }
   },
   components: {

@@ -14,6 +14,12 @@ export default new Router({
       component: Map
     },
     {
+      path: '/region/:region_id',
+      component: Map,
+      name: 'region',
+      props: true 
+    },
+    {
       path: '/blog',
       name: 'blog',
       // route level code-splitting
@@ -27,7 +33,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/DanceHouse.vue')
+      component: () => import(/* webpackChunkName: "about" */ './views/TanecneDomy.vue')
     },
     {
       path: '/milovnici',
@@ -36,6 +42,16 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/Milovnici.vue')
+    },
+    {
+      path: '/projekt',
+      name: 'projekt',
+      component: () => import('./views/Projekt.vue')
+    },
+    {
+      path: '/kontakt',
+      name: 'kontakt',
+      component: () => import('./views/Kontakt.vue')
     }
   ]
 })

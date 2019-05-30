@@ -18,6 +18,7 @@ export const COUNTRY_ZOOM_BOUNDS = [
 export const COUNTRY_CENTER = [48.791220, 19.679318];
 export const ZOOM_SNAP = 0.2;
 export const ZOOM_CONTROL = false;
+export const SCROOL_ZOOM = false;
 export const FADE_ANIMATION = true;
 export const ZOOM_ANIMATION = true;
 export const DOUBLE_CLICK_ZOOM = false;
@@ -30,6 +31,7 @@ export const MAP_CONFIG = {
     maxBounds: MAP_BOUNDS,
     maxZoom: PLACE_ZOOM_LEVEL,
     minZoom: INITIAL_ZOOM_LEVEL,
+    scrollWheelZoom: SCROOL_ZOOM,
     options: {
         zoomSnap: ZOOM_SNAP,
         zoomControl: ZOOM_CONTROL,

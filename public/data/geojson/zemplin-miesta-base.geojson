@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.9249927,
+                    48.7577612,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Zemplínske múzeum v Michalovciach",
+                "type": "objavuj",
+                "content": "/data/md/places/zemplin/objavuj/zemplinske-muzeum-v-michalovciach.md"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.7141695,
+                    48.7521583,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Parchovany",
+                "type": "obec",
+                "content": "/data/md/places/zemplin/obce/parchovany.md"
+            }
+        }
+    ]
+}
