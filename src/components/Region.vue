@@ -29,9 +29,10 @@ export default {
   },
   methods: {
     select() {
-      const content = (this.content && this.content.data) ? this.content.data : ""
+      const content = (this.content.short && this.content.short.data) ? this.content.short.data : ""
+      const expandedContent = (this.content.long && this.content.long.data) ? this.content.long.data : ""
       this.$store.dispatch('SET_CURRENT_REGION', { id: this.id })
-      this.$store.dispatch('SET_PANEL', { title: this.name, content, backbutton: "mapa"})
+      this.$store.dispatch('SET_PANEL', { title: this.name, content, expandedContent, backbutton: "mapa"})
       this.$router.replace('/region/' + this.id)
 
       this.$emit('select', {

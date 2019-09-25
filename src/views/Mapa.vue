@@ -1,6 +1,6 @@
 <template>
-  <main class="content">
-    <l-map ref="map" @update:bounds="boundsUpdated" :center="center" :zoom="zoom" :fadeAnimation="fadeAnimation" :zoomAnimation="zoomAnimation" :maxBounds="maxBounds" :maxZoom="maxZoom" :minZoom="minZoom" :options="options">
+  <main class="content" :class="{'with-sidepanel': isSidePanelOpen, 'sidepanel-expanded': isSidePanelExpanded}">
+    <l-map class="map" ref="map" @update:bounds="boundsUpdated" :center="center" :zoom="zoom" :fadeAnimation="fadeAnimation" :zoomAnimation="zoomAnimation" :maxBounds="maxBounds" :maxZoom="maxZoom" :minZoom="minZoom" :options="options">
       <div>
         <!-- <l-geo-json :geojson="country.extrenal_borders.geoJSON" :options-style="styleFunction" @ready="bordersReady"></l-geo-json> -->
         <l-geo-json :geojson="country.border.geoJSON" :options-style="countryStyleFunction"></l-geo-json>
@@ -56,6 +56,12 @@ export default {
     },
     map() {
       return this.$refs.map
+    },
+    isSidePanelOpen() {
+      return this.$store.state.sidepanel.content !== ""
+    },
+    isSidePanelExpanded() {
+      return this.$store.state.sidepanel.expanded
     },
     currentPlace() {
       return this.$store.state.current.place
@@ -134,6 +140,18 @@ export default {
     height: 100%;
     display: flex;
     flex-direction: row;
+  }
+
+  .content .map {
+    flex-basis: 100%;
+  }
+
+  .content.with-sidepanel .map {
+    flex-basis: 70%;
+  }
+
+  .content.with-sidepanel.sidepanel-expanded .map {
+    flex-basis: 20%;
   }
 
   .leaflet-container {

@@ -1,8 +1,7 @@
-Zemplín
+SHORT Zemplín
 =======
 
-Na Zemplíne stavali amerikánske domy a predávali nevesty
-
+* Na Zemplíne stavali amerikánske domy a predávali nevesty
 * Amerikánske domy spojili slovenské ľudové staviteľstvo a moderné smery z Ameriky.
 * Sedem pujďáckych dedín zaniklo kvôli vodnej nádrži Starina.
 * Na juhu sa pestovalo chutné tokajské víno, na severe vyrábali syry či žinčicu.

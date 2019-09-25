@@ -26,7 +26,9 @@ export default new Vuex.Store({
     "sidepanel": {
       title: "",
       backbutton: "",
-      content: ""
+      content: "",
+      expandedContent: "",
+      expanded: false
     },
     "country": {
         "border": {
@@ -54,8 +56,14 @@ export default new Vuex.Store({
           "layer": null
       },
       "content": {
-        "fetchURL": "/data/md/regions/zemplin.md",
-        "data": ""
+        "short": {
+          "fetchURL": "/data/md/regions/zemplin/short.md",
+          "data": ""
+        },
+        "long": {
+          "fetchURL": "/data/md/regions/zemplin/long.md",
+          "data": ""
+        }
       }
   }]
   },
@@ -75,8 +83,11 @@ export default new Vuex.Store({
     SET_REGION_PLACES_DATA( store, { id, data } ) {
       store.regions.find(region => region.id === id).places = data
     },
-    SET_REGION_CONTENT ( store, { id, data } ) {
-      store.regions.find(region => region.id === id).content.data = data
+    SET_REGION_SHORT_CONTENT ( store, { id, data } ) {
+      store.regions.find(region => region.id === id).content.short.data = data
+    },
+    SET_REGION_LONG_CONTENT ( store, { id, data } ) {
+      store.regions.find(region => region.id === id).content.long.data = data
     },
     SET_COUNTY_BORDER_DATA( store, data ) {
       store.country.border = data
@@ -87,6 +98,9 @@ export default new Vuex.Store({
     PANEL_CLOSED(store) {
       store.current.region = null
     },
+    SET_EXPAND_PANEL(store, { expanded }) {
+      store.sidepanel.expanded = expanded
+    },
     SET_PANEL_TITLE(store, { title }) {
       store.sidepanel.title = title
     },
@@ -95,6 +109,9 @@ export default new Vuex.Store({
     },
     SET_PANEL_CONTENT(store, { content }) {
       store.sidepanel.content = content
+    },
+    SET_PANEL_EXPANDED_CONTENT(store, { expandedContent }) {
+      store.sidepanel.expandedContent = expandedContent
     }
   },
   actions: {
@@ -113,13 +130,25 @@ export default new Vuex.Store({
 
       commit('SET_REGION_BORDER_DATA', { id, data: border })
     },
-    async LOAD_REGION_CONTENT ({ getters, commit }, { id }) {
+    async LOAD_REGION_CONTENT ({ getters, dispatch }, { id }) {
       const region = getters.region(id)
-      const content = await fetch(region.content.fetchURL).then(function(res) {
+      
+      dispatch('LOAD_REGION_SHORT_CONTENT', { id, region })
+      dispatch('LOAD_REGION_LONG_CONTENT', { id, region })
+    },
+    async LOAD_REGION_SHORT_CONTENT ({ commit }, { id, region }) {
+      const content = await fetch(region.content.short.fetchURL).then(function(res) {
         return res.text()
       })
 
-      commit('SET_REGION_CONTENT', { id, data: content })
+      commit('SET_REGION_SHORT_CONTENT', { id, data: content })
+    },
+    async LOAD_REGION_LONG_CONTENT ({ commit }, { id, region }) {
+      const content = await fetch(region.content.long.fetchURL).then(function(res) {
+        return res.text()
+      })
+
+      commit('SET_REGION_LONG_CONTENT', { id, data: content })
     },
     async LOAD_REGION_MAP_LAYERS ({ state, commit }, { id }) {
       const region = state.regions.find(region => region.id === id)
@@ -155,15 +184,23 @@ export default new Vuex.Store({
     PANEL_CLOSED ({ commit }) {
       commit('PANEL_CLOSED')
     },
-    SET_PANEL({ commit }, { title, content, backbutton }) {
+    SET_PANEL({ commit }, { title, content, expandedContent, backbutton }) {
       commit('SET_PANEL_TITLE', { title })
       commit('SET_PANEL_CONTENT', { content })
+      commit('SET_PANEL_EXPANDED_CONTENT', { expandedContent })
       commit('SET_PANEL_BACKBUTTON', { text: backbutton })
     },
     CLEAR_PANEL({ commit }) {
       commit('SET_PANEL_TITLE', { title: "" })
       commit('SET_PANEL_CONTENT', { content: "" })
       commit('SET_PANEL_BACKBUTTON', { text: "" })
+      commit('SET_EXPAND_PANEL', { expanded: false })
+    },
+    EXPAND_PANEL({ commit }) {
+      commit('SET_EXPAND_PANEL', { expanded: true })
+    },
+    COLLAPSE_PANEL({ commit }) {
+      commit('SET_EXPAND_PANEL', { expanded: false })
     },
     SET_CURRENT_PLACE({ commit }, { place }) {
       commit('SET_CURRENT_PLACE', { place })

@@ -1,10 +1,13 @@
 <template lang="pug">
-  div.side-panel
+  div.side-panel(v-if="hasContent" :class="{ 'expanded': isExpanded }")
     header.header
         div.back(@click="back") < {{ backbutton }}
+        div.expand(v-if="couldBeExpanded" @click="expand") expand
+        div.collapse(v-if="isExpanded" @click="collapse") x
     main.main
       //- header.title {{ title }}
-      main.content(v-html="compiledMarkdown")
+      main.content(v-if="!isExpanded" v-html="compiledContent")
+      main.content(v-if="isExpanded" v-html="compiledExpandedContent")
 </template>
 
 <script>
@@ -31,6 +34,13 @@ export default {
         this.$store.dispatch('CLEAR_PANEL')
         this.map.invalidateSize()
         this.$emit('close')
+      },
+      expand() {
+        this.$store.dispatch('EXPAND_PANEL')
+        this.content
+      },
+      collapse() {
+        this.$store.dispatch('COLLAPSE_PANEL')
       }
   },
   mounted: function () {
@@ -43,8 +53,11 @@ export default {
     backbutton() {
       return this.$store.state.sidepanel.backbutton
     },
-    content() {
-      return this.$store.state.sidepanel.content
+    compiledContent() {
+      return window.marked(this.$store.state.sidepanel.content, { sanitize: true })
+    },
+    compiledExpandedContent() {
+      return window.marked(this.$store.state.sidepanel.expandedContent, { sanitize: true })
     },
     currentPlace() {
       return this.$store.state.current.place
@@ -52,8 +65,15 @@ export default {
     currentRegion() {
       return this.$store.state.current.region
     },
-    compiledMarkdown: function () {
-      return window.marked(this.content, { sanitize: true })
+    couldBeExpanded() {
+      console.log(this.$store.state.sidepanel.expandedContent)
+      return (this.$store.state.sidepanel.expandedContent !== "") && !this.isExpanded
+    },
+    hasContent() {
+      return this.$store.state.sidepanel.content !== ""
+    },
+    isExpanded() {
+      return this.$store.state.sidepanel.expanded
     }
   }
 }
@@ -61,10 +81,14 @@ export default {
 
 <style scoped lang="scss">
   .side-panel {
-    width: 50%;
     height: 100%;
     background: white;
     overflow-x: auto;
+    flex-basis: 30%;
+  }
+
+  .side-panel.expanded {
+    flex-basis: 80%;
   }
 
   .header {
@@ -74,7 +98,9 @@ export default {
   }
 
   .close,
-  .back {
+  .back,
+  .expand,
+  .collapse {
       padding: 20px;
       display: flex;
       justify-content: center;
