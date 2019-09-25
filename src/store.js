@@ -41,45 +41,6 @@ export default new Vuex.Store({
         }
     },
     "regions": [{
-    //     "id": "zahorie",
-    //     "name": "Zahorie",
-    //     "border": {
-    //         "fetchURL": "/data/geojson/zahorie-region.geojson",
-    //         "geoJSON": null,
-    //         "layer": null
-    //     },
-    //     "places": {
-    //         "fetchURL": "/data/geojson/zahorie-miesta.geojson",
-    //         "geoJSON": null,
-    //         "layer": null
-    //     }
-    // },{
-    //     "id": "myjavska_oblast",
-    //     "name": "Myjavská oblast",
-    //     "border": {
-    //         "fetchURL": "/data/geojson/myjavska_oblast-region.geojson",
-    //         "geoJSON": null,
-    //         "layer": null
-    //     },
-    //     "places": {
-    //         "fetchURL": "/data/geojson/myjavska_oblast-miesta.geojson",
-    //         "geoJSON": null,
-    //         "layer": null
-    //     }
-    // },{
-    //     "id": "medzi_malymi_karpatami_a_vahom",
-    //     "name": "Medzi Malymi Karpatami a Vahom",
-    //     "border": {
-    //         "fetchURL": "/data/geojson/medzi_malymi_karpatami_a_vahom-region.geojson",
-    //         "geoJSON": null,
-    //         "layer": null
-    //     },
-    //     "places": {
-    //         "fetchURL": "/data/geojson/medzi_malymi_karpatami_a_vahom-miesta.geojson",
-    //         "geoJSON": null,
-    //         "layer": null
-    //     }
-    // },{
       "id": "zemplin",
       "name": "Zemplín",
       "border": {
